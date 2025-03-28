@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>차세대 그래픽카드의 선두주자</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Nvidia Geforce</h2>
+    <p>지난 2025년 Nvidia는 CES 2025행사에서 새로운 차세대 그래픽카드를 선보였다</p>
+    <p>Nvidia는 최신 Geforce RTX 50시리즈 GPU는 새로운 blackwell 아키텍쳐를 기반으로 하여 게이머와 크리에이터 모두에게 혁신적인 성능을 제공한다고 하였다.</p>
+    <p>RTX 50 시리즈는 GDDR7 비디오 메모리를 탑재하여 이전 세대보다 향상된 성능과 효율성을 제공합니다.<br>또한 새로운 DLSS4 기술을 도입하여 AI를 활용한 멀티 프레임 생성으로 게임성능과 비주얼을 크게 향상시킵니다.</p>
+
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>AMD Radeon</h2>
+    <p>AMD는 현존 최강의 CPU를 제공하는 가장 유명한 회사로 잘 알려져있다. 하지만 AMD가 추진하고 있는 제품중 하나는 GPU도 포함되어 있다.</p>
+    <p>AMD는 지난 3월 5일 Radeon 9000 시리즈를 공개하였다.<br>이 시리즈는 새로운 RDNA 4 아키텍쳐를 기반으로 하며, AI 가속기와 향상된 레이 트레이싱 성능을 제공합니다.</p>
+    <p>AMD는 이전 7000 시리즈까지는 하이엔드급의 제품을 생성하였지만 이번 9000 시리즈부터는 중급형의 퀄리티를 향상시키기 위해 하이엔드급의 제품을 출시하지 않겠다고 하였다.</p>
+  </div>
+</div>
+
+</body>
+</html>
